@@ -47,3 +47,23 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Generated outputs
+*.log
+*.tmp
+*.sqlite
+*.rds
+*.html
+*.pdf
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+multi_touch_attribution_data.csv
+Sample Media Spend Data.csv
+synth_media_spend_mmm.csv
+synth_multi_touch_attribution_data.csv
+
+inst/extdata/*
+inst/templates/*
