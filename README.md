@@ -11,7 +11,9 @@ Try the app here: [https://ofosuosei.shinyapps.io/marketing-attribution/](https:
 ### Upload & Validate
 
 - Upload a CSV (or use included demo datasets)
-- Auto-detects dataset type:
+
+**Auto-detects dataset type:**
+
 - Journey (multi-touch events) → Markov attribution + journey diagnostics
 - MMM (media spend / activity + sales) → MMM-lite scenario simulation + MMM diagnostics
 - Preview the data and confirm required columns
@@ -19,10 +21,14 @@ Try the app here: [https://ofosuosei.shinyapps.io/marketing-attribution/](https:
 ### Attribution (Markov)
 
 - Computes removal-effect attribution (normalized)
+
 **Optional:**
+
 - Lookback window (days)
 - Remove consecutive duplicate channels
+
 **Shows:**
+
 - Attribution chart + table
 - Sample “top paths”
 
@@ -30,7 +36,9 @@ Try the app here: [https://ofosuosei.shinyapps.io/marketing-attribution/](https:
 
 - Fit a simple MMM-lite model (per division if applicable)
 - Adjust channel multipliers (sliders) to run “what-if” scenarios
+
 **Outputs:**
+
 - Baseline vs scenario predicted sales plot
 - Scenario summary + per-period table (baseline, scenario, lift)
 
@@ -76,4 +84,5 @@ Try the app here: [https://ofosuosei.shinyapps.io/marketing-attribution/](https:
 ## ⚠️ Notes & disclaimers
 
 > MMM-lite is intentionally simple (useful for demos and directional “what-if” scenarios). It is not a full Bayesian MMM, does not automatically handle adstock/saturation unless explicitly implemented in your MMM script, and should not be treated as production-grade causal inference.
+
 > Attribution results depend heavily on data definitions (especially what counts as a “conversion” and how journeys are filtered).
